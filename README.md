@@ -14,17 +14,18 @@ A responsive, modern e-commerce website for a fashion store. This project featur
   Organized CSS files for better maintainability.
 
 - **Modern Aesthetic:**  
-  Clean typography with Google Fonts (Playfair Display & Plus Jakarta Sans).
+  Clean typography with Google Fonts .
   
-## Installation
+## ⚙️ Installation
 
 1. **Clone the repository:**
 
-   ```bash
-   git clone https://github.com/aayush3692/Web-Project.git
+  ```bash
+    git clone https://github.com/aayush3692/Web-Project.git
+  ```
 
-2. **Navigate to the project folder**
+2. **Navigate to the project folder:**
+
   ```bash
     cd Web-Project
-
-
+  ```
