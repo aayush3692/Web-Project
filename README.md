@@ -25,6 +25,6 @@ A responsive, modern e-commerce website for a fashion store. This project featur
 
 2. **Navigate to the project folder**
   ```bash
-  cd fashion-store
+    cd Web-Project
 
 
