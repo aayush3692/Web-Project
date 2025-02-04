@@ -23,7 +23,7 @@
     --gray-100: #888888;
 
     --color-white: #fff;
-    --color-creamson: #fff0de;
+    --color-light: #F9F6E6;
 }
 
 * {
@@ -37,7 +37,7 @@ body {
     /* max-width: 1280px; */
     width: 100%;
     margin: 0 auto;
-    background-color: var(--color-white);
+    background-color: var(--color-light);
 }
 
 a {

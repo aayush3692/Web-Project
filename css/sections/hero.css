@@ -1,7 +1,7 @@
 .hero {
     text-align: center;
     padding: 40px 20px;
-    background-color: #F2EFE7;
+
     width: 100vw;
     margin-left: calc(-50vw + 50%);
 }
@@ -47,7 +47,7 @@
 
 .hero__gallery {
     display: flex;
-    width: 100vw;
+    width: 100%;
     gap: 5px;
     mask: linear-gradient(white, white),
         radial-gradient(at top, white 50%, transparent 50.5%),
