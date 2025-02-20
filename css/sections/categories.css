@@ -1,0 +1,319 @@
+.Title{
+    font-weight:bold;
+    font-size:22px;
+    color:black;
+    display: inline-block;
+    margin-left: 500px;
+}
+.Fashion{
+    width:400px;
+    position:relative;
+    margin-left:350px;
+    background-color: #121212;
+    height:0px;
+    justify-content: space-between;
+}
+.Fashion-photo{
+    width:350px;
+    margin-left:30px;
+    border-radius:15px;
+}
+.text{
+    position:absolute;
+    color:white;
+    font-size:14px;
+    font-weight:bold;
+    top:15px;
+    left:15px;
+   width:300px;
+   padding-right:10px;
+    padding-left:10px;
+    padding-top:10px;
+    padding-bottom:10px;
+    margin-left:30px;
+    margin-top:190px;
+}
+.paragraph-txt{
+    font-size:14px;
+    font-family:arial;
+    color:#F5F5F5 ;
+}
+.paragraph-txt:hover{
+    cursor: pointer;
+    text-decoration:underline;
+}
+.header-txt{
+    margin-bottom:0px;
+    font-size:18px;
+}
+.header-txt:hover{
+    cursor:pointer;
+    text-decoration:underline;
+}
+
+.Watch{
+    width:200px;
+    position:relative;
+    margin-top:10px;
+    margin-left:30px;
+}
+.Watch-photo{
+    width:175px;
+    height:150px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+.Watch-text{
+    position:absolute;
+    color:white;
+    font-weight: bold;
+    font-size:13px;
+    top:15px;
+    left:15px;
+    margin-left:0px;
+    margin-top:70px;
+    font-family:Arial, Helvetica, sans-serif;
+    width:70px;
+}
+.Watch-text:hover{
+    cursor: pointer;
+    text-decoration:underline;
+}
+.Watch-text:active{
+    opacity: 0.7px;
+}
+.Watch-photo:hover{
+    cursor: pointer;
+}
+.Bag-photo{
+    width:175px;
+    height:150px;
+    border-radius:15px;
+}
+.Bag{
+    width:200px;
+    position:relative;
+    left:210px;
+    bottom:150px;
+}
+.Head-text{
+    position:absolute;
+    color:white;
+    top:15px;
+    left:15px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    padding-top:10px;
+    padding-bottom:10px;
+    margin-top:60px;
+    width:80px;
+}
+.head-text:hover{
+    cursor: pointer;
+    text-decoration:underline;
+}
+.Jacket-pic{
+    width:250px;
+    height:540px;
+    object-fit:cover;
+    border-radius: 15px;
+}
+.Jacket-pic:hover{
+    cursor: pointer;
+}
+.jacket{
+    width:400px;
+    position: relative;
+    bottom:690px;
+    left:400px;
+}
+.Jacket-txt{
+    position:absolute;
+    color:white;
+    top:15px;
+    left:15px;
+    margin-top:320px;
+}
+.Jack-p{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    width:220px;
+}
+.Jack-head{
+    font-size:20px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.Jack-p:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.Jack-head:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.jack-but{
+    padding-top:9px;
+    padding-bottom:9px;
+    padding-left:9px;
+    padding-right:9px;
+    border-radius: 20px;
+    background-color: transparent;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.jack-but{
+    cursor: pointer;
+}
+.jack-but:hover{
+    opacity: 0.7;
+}
+body{
+    background-color: #F5F5DC;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+@media only screen and (max-width: 455px)
+{
+    
+} 
+.Fashion-2{
+   margin-top: 600px;
+   margin-left:350px;
+   width:700px;
+   justify-content: space-between;
+   vertical-align: top;
+}
+.Header-2{
+    color:black;
+    display: inline-block;
+    font-size: 22px;
+    font-weight:bold;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left:200px;
+}
+.navi{
+    color:white;
+}
+.nav-bar{
+    margin-top:20px;
+}
+.order-list{
+    display:flex;
+    list-style-type: none;
+    justify-content: center;
+    gap:30px;
+}
+li{
+    padding-right:20px;
+    transition: opacity 1s;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    color:black;
+    transition: padding-left,padding-right,padding-top,padding-bottom 0.3s;
+}
+li:hover{
+    cursor: pointer;
+    opacity: 0.7;
+    background-color:  #EDE0CC;;
+    padding-left:5px;
+    padding-right:5px;
+    padding-top:3px;
+    padding-bottom:3px;
+    font-size: 13px;
+    border-radius: 15px;
+}
+.clothe-pht{
+    width:200px;
+    height:270px;
+    border: 0.5px solid black;
+    border-radius:15px;
+    background-color: #EDE0CC;
+}
+.levis-Dri{
+    width:200px;
+    border-radius: 15px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+.head-p{
+    font-weight:bold;
+    margin-top:0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.para-p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.levi-text,.txt-3rd:hover{
+    cursor: pointer;
+}
+.shop{
+    color:black;
+    position:relative;
+    left:160px;
+    bottom:30px;
+}
+.shirt-pht{
+    width:200px;
+    height: 270px;
+    border: 0.5px solid black;
+    border-radius:15px;
+    background-color: #EDE0CC;
+}
+.levis-shir{
+    width:200px;
+    border-radius: 15px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    height:202px;
+    object-fit:cover;
+}
+.levs-text,.levi-text,.txt-3rd,.txt-4th{
+    position:relative;
+    text-align: left;
+    color:black;
+    font-size:13px;
+    padding:10px;
+}
+.head-levs{
+    font-weight: bold;
+    margin-top: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.par-levs{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.levs-text,.txt-4th:hover{
+    cursor: pointer;
+}
+
+.shirt-3rd,.shirt-4th{
+    width:200px;
+    height:270px;
+    border: 0.5px solid black;
+    border-radius:15px;
+    background-color: #EDE0CC;
+}
+.levis-3rd,.levis-4th{
+    width:200px;
+    height:203px;
+    border-radius:15px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    object-fit:cover;
+}
+.photo-cont{
+    display:flex;
+    justify-content: space-between;
+    gap:30px;
+    align-items: flex;
+    margin-top: 50px;
+}
+.head-3rd,.head-4th{
+    margin-top:0px;
+    font-weight:bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.para-3rd,.para-4th{
+    font-family: Arial, Helvetica, sans-serif;
+}
