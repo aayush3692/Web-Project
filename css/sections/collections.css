@@ -13,53 +13,62 @@
 
 .collections__grid {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 20px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 10px;
 }
 
-.collections__item {
+.collections__grid article {
     position: relative;
     overflow: hidden;
     border-radius: 10px;
-    background: #f9f9f9;
-    padding: 20px;
-    text-align: left;
+    text-align: center;
 }
 
-.collections__item img {
+.collections__grid article figure img {
     width: 100%;
     height: auto;
-    border-radius: 10px;
-    margin-bottom: 15px;
+    display: block;
 }
 
-.collections__item h3 {
-    font-size: 1.5rem;
-    margin-bottom: 10px;
+.collections__grid > :nth-child(1){
+    grid-column: span 2;
+}
+/* Overlay for text */
+.collections__grid article .text-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Dark transparent background */
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    opacity: 1; /* Fully visible by default */
+    transition: opacity 0.3s ease;
 }
 
-.collections__item h3 a {
-    color: inherit;
-    text-decoration: none;
-}
-
-.collections__item p {
-    font-size: 1rem;
-    color: #555;
-    margin-bottom: 15px;
+/* Hover effect for better readability */
+.collections__grid article:hover .text-overlay {
+    opacity: 1;
 }
 
 .jacket-btn {
-    background: black;
-    color: white;
+    background: white;
+    color: black;
     border: none;
     padding: 10px 15px;
     cursor: pointer;
     font-weight: bold;
     border-radius: 5px;
+    margin-top: 10px;
     transition: background 0.3s ease;
 }
 
 .jacket-btn:hover {
-    background: #333;
+    background: #ddd;
 }
