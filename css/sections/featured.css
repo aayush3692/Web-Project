@@ -58,7 +58,7 @@
 }
 
 
-@media (min-width:763px){
+@media (min-width:550px){
     .featured__series{
        flex-direction: row;
     }

@@ -1,0 +1,46 @@
+.holiday{
+    display: flex;
+    overflow: hidden;
+
+    margin: 64px;
+
+    border-radius: 20px ;
+    background-color: #0D4715;
+}
+
+.holiday__text{
+    color: #fff;
+    border: 3px solid black;
+    border-right-color: transparent;
+}
+
+.holiday__title{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2.5rem;
+    padding:30px 45px;
+}
+.holiday__description{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.5rem;
+    padding: 20px 45px;
+}
+.holiday__btn{
+    background: transparent;
+    color: white;
+    border: 2.5px solid white;
+    padding: 15px 15px;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 30px;
+    margin-top: 10px;
+    font-size: 18px;
+    margin-left: 30px;
+    transition: 0.3s ease;
+    margin-bottom: 20px;
+}
+
+@media (max-width:550px){
+    .holiday__img{
+        display: none;
+    }
+}

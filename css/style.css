@@ -8,6 +8,7 @@
 @import url("sections/collections.css");
 @import url("sections/footer.css");
 @import url("sections/featured.css");
+@import url("sections/holiday.css");
 
 :root {
     --playfair-display: "Playfair Display", serif;
