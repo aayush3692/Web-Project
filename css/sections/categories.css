@@ -86,9 +86,21 @@
 
 .sideArrow{
     position: absolute;
-    left: 50%;
+    right: 0;
     top: 50%;
     transform: translate(-50%, -50%);
+}
+.sideArrow img{
+    width: 40px;
+    height: 40px;
+}
 
-    
+.sideArrow img:hover{
+    background-color: rgba(255, 255, 255, 0.05);
+}
+
+@media (max-width: 768px) {
+    .sideArrow{
+        display: none;
+    }
 }
