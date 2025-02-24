@@ -39,7 +39,7 @@
     margin-bottom: 20px;
 }
 
-@media (max-width:550px){
+@media (max-width:768px){
     .holiday__img{
         display: none;
     }
