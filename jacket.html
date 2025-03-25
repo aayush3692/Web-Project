@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jacket's Wear</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Times New Roman', Times, serif
+        }
+
+        body {
+            background-color: #F9F6E6;
+        }
+
+
+        .container {
+            width: 100%;
+            padding: 50px 0px;
+            background: linear-gradient(90deg, #ff8c00, #ff0080);
+            color: white;
+            font-size: 40px;
+            font-weight: bold;
+            text-align: center;
+            border-radius: 0 0 90% 90%;
+            box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+            margin: 0px;
+            position: relative;
+        }
+
+        .container h1 {
+            padding: 20px;
+            font-size: 48px;
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+            text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+        }
+
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(-10px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+
+        .img-list {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            flex-wrap: wrap;
+            margin: 30px;
+        }
+
+        .img1 {
+            background: white;
+            border-radius: 15px;
+            width: 350px;
+            padding: 20px;
+            box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease-in-out;
+            text-align: center;
+        }
+
+        .img1:hover {
+            transform: scale(1.05);
+        }
+
+        .img1 img {
+            width: 100%;
+            height: 250px;
+            border-radius: 10px;
+            transition: transform 0.3s ease-in-out;
+            cursor: pointer;
+        }
+
+
+        .img1 img:active {
+            transform: scale(1.05);
+        }
+
+        .img1-text {
+            margin-top: 10px;
+            text-align: center;
+        }
+
+        .img1-text p {
+            font-size: 16px;
+            color: #333;
+            font-weight: bold;
+        }
+
+        .price {
+            font-size: 18px;
+            font-weight: bold;
+            color: #ff5733;
+            margin: 10px 0;
+        }
+
+
+        .button {
+            display: inline-block;
+            background: navy;
+            color: white;
+            padding: 10px 15px;
+            border-radius: 25px;
+            text-decoration: none;
+            font-size: 16px;
+            font-weight: bold;
+            transition: 0.3s ease-in-out;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .button:hover {
+            background: black;
+            transform: scale(1.1);
+        }
+
+
+        .button::after {
+            content: " 🛒";
+        }
+
+        @media screen and (max-width:800px) {
+            .container h1 {
+                font-size: 20px;
+            }
+
+            .img1 {
+                width: 100%;
+                max-width: 280px;
+                margin-bottom: 15px;
+            }
+
+            .img img {
+                height: 200px;
+            }
+
+            .price {
+                font-size: 14px;
+            }
+
+            .button {
+                font-size: 14px;
+                padding: 8px 12px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <nav class="header__nav">
+            <div class="header__logo">
+                <img src="assets/logo.png" alt="logo">
+            </div>
+
+            <div class="flex-center">
+                <ul class="header__menu">
+                    <li><a href="#news">News & featured</a></li>
+                    <li><a href="shirts.html">Men</a></li>
+                    <li><a href="#women">Women</a></li>
+                    <li><a href="#kids">Kids</a></li>
+                    <li><a href="#accessories">Accessories</a></li>
+                    <li><a href="#sales">Sales</a></li>
+                </ul>
+            </div>
+
+            <ul class="header__menu-icons">
+                <li>
+                    <img src="assets/search.png" alt="search" width="24px" height="24px">
+                </li>
+                <li>
+                    <img src="assets/user.png" alt="user">
+                </li>
+                <li>
+                    <img src="assets/heart.png" alt="heart" width="24px" height="24px">
+                </li>
+                <li>
+                    <img src="assets/cart.png" alt="cart" width="24px" height="24px">
+                </li>
+
+            </ul>
+
+            <ul class="header__menu-mobile">
+                <li>
+                    <img 
+                    src="assets/hamburger.svg" 
+                    alt="menu"
+                    id="hamburger-icon"
+                    >
+                </li>
+            </ul>
+            <ul class="header__menu" id="mobile-menu">
+                <li><a href="#news">News & featured</a></li>
+                <li><a href="shirts.html">Men</a></li>
+                <li><a href="#women">Women</a></li>
+                <li><a href="#kids">Kids</a></li>
+                <li><a href="#accessories">Accessories</a></li>
+                <li><a href="#sales">Sales</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <h1>Latest Jackets Collection For Men's</h1>
+    </div>
+
+
+    <div class="img-list">
+        <div class="img1">
+            <img src="assets/jacket1.jpg" alt="Jacket 1">
+            <div class="img1-text">
+                <p>Men's Jacket Zip Up Coat with Pockets Casual Fall Jackets</p>
+            </div>
+            <p class="price">NPR 1500</p>
+            <a href="" class="button">Shop Now</a>
+        </div>
+
+        <div class="img1">
+            <img src="assets/jacketimg2.jpg" alt="Jacket 2">
+            <div class="img1-text">
+                <p>Men's Jackets Jacket Men Zipper Winter Spring Autumn Casual</p>
+            </div>
+            <p class="price">NPR 2500</p>
+            <a href="" class="button">Shop Now</a>
+        </div>
+
+        <div class="img1">
+            <img src="assets/JACKET3.JPNG.webp" alt="Jacket 3">
+            <div class="img1-text">
+                <p>Best Men’s Waterproof Jackets</p>
+            </div>
+            <p class="price">NPR 2000</p>
+            <a href="" class="button">Shop Now</a>
+        </div>
+        <div class="img1">
+            <img src="assets/Jacket4.jpg" alt="jacket4">
+            <div class="img1-text">
+                <p>Winter Half Sleeve Jacket For Men</p>
+            </div>
+            <p class="price">NPR 1200</p>
+            <a href="" class="button">Shop Now</a>
+        </div>
+        <div class="img1">
+            <img src="assets/Jacket5.jpg" alt="jacket5">
+            <div class="img1-text">
+                <p>Men's Wool Coats Duck Down Inner Detachable Jackets Zipper Short Overcoats Size</p>
+            </div>
+            <p class="price">NPR 3000</p>
+            <a href="" class="button">Shop Now</a>
+        </div>
+        <div class="img1">
+            <img src="assets/Jacket66.jpg" alt="Jacket6">
+            <div class="img1-text">
+                <p>Gergeos Men Coat Fashion Stand Collar Zipper Warm Winter Cotton Thick Jacket</p>
+            </div>
+            <p class="price">NPR 2200</p>
+            <a href="" class="button">Shop Now</a>
+        </div>
+        <div class="img1">
+            <img src="assets/Jacket77.jpg" alt="Jacket7">
+            <div class="img1-text">
+                <p>Fjallraven Mens Greenland No 1 Down Jacket</p>
+            </div>
+            <p class="price">NPR 3100</p>
+            <a href="" class="button">Shop Now</a>
+        </div>
+        <div class="img1">
+            <img src="assets/Jacket8.jpg" alt="Jacket8">
+            <div class="img1-text">
+                <p> Men Jackets Smart Casual Jackets Mens Bomber Leightweight Jackets Mens Running Summer Jackets</p>
+            </div>
+            <p class="price">NPR 4000</p>
+            <a href="" class="button">Shop Now</a>
+        </div>
+        <div class="img1">
+            <img src="assets/Jacket9.jpg" alt="Jacket9">
+            <div class="img1-text">
+                <p>MOTOTECH Rain Jacket Hurricane Air Tourpro Grey Green</p>
+            </div>
+            <p class="price">NPR 1620</p>
+            <a href="" class="button">Shop Now</a>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <article class="footer__description">
+            <div class="footer__intro">
+                <h3>Fashion Store</h3>
+                <p>Design amazing digital experiences that create more happy in the world.</p>
+            </div>
+
+            <div class="footer__links">
+                <ol>
+                    <p>Shop</p>
+                    <li>Men's Product</li>
+                    <li>Women's Product</li>
+                    <li>Winter Edition</li>
+                    <li>Accessories</li>
+                    <li>Discounts</li>
+                </ol>
+
+                <ol>
+                    <p>Company</p>
+                    <li>About US</li>
+                    <li>Careers</li>
+                    <li>Investors</li>
+                    <li>News</li>
+                    <li>Purpose</li>
+                </ol>
+
+                <ol>
+                    <p>Support</p>
+                    <li>Order Status</li>
+                    <li>Shipping & Delivery</li>
+                    <li>Returns</li>
+                    <li>Payment Option</li>
+                    <li>Contact</li>
+                </ol>
+            </div>
+        </article>
+
+        <div class="footer__line"></div>
+
+        <div class="footer__bottom">
+            <p>© 2025 Fashion Store. All rights reserved</p>
+
+            <ul class="footer__social">
+                <li class="flex-center">
+                    <img src="assets/facebook.svg" alt="facebook">
+                </li>
+                <li class="flex-center">
+                    <img src="assets/instagram.svg" alt="instagram">
+                </li>
+                <li class="flex-center">
+                    <img src="assets/twitter.svg" alt="twitter">
+                </li>
+            </ul>
+        </div>
+
+    </footer>
+
+
+</body>
+
+</html>

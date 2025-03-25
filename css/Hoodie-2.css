@@ -1,0 +1,56 @@
+.Web-Cont-2{
+    justify-content: center;
+    margin-top: 10px;
+    display: flex;
+}
+.hoodie5-pic,.hoodie6-pic,.hoodie7-pic,.hoodie8-pic{
+    width:280px;
+    padding:0px;
+    height: 350px;
+    margin:0px;
+    object-fit: cover;
+    border-radius: 12px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+.Container-1-1,.Container-2-1,.Container-3-1,.Container-4-1{
+    position:relative;
+   width:280;
+   height: 450;
+   margin-left:0px;
+   border:0.5px solid black;
+   border-collapse: collapse;
+   margin:10px;
+   border-radius: 12px;
+   transition: transform 0.3s ease-in-out;
+}
+.Text-5,.Text-6,.Text-7,.Text-8{
+    font-family:'Orbitron', sans-serif;
+    font-size: 15px;
+    height: 100px;
+}
+.price8-txt,.price7-txt,.price6-txt,.price5-txt
+{
+    font-weight: bold;
+    width:100px;
+    margin:30px;
+    font-size:16px;
+}
+.Info-5,.Info-6,.Info-7,.Info-8{
+    margin:0px;
+    width:280px;
+    text-align: center;
+}
+.Container-1-1:hover,
+.Container-2-1:hover,
+.Container-3-1:hover,
+.Container-4-1:hover{
+    transform:scale(1.1);
+}
+.Info-5:hover,
+.Info-6:hover,
+.Info-7:hover,
+.Info-8:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}

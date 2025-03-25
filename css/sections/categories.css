@@ -64,6 +64,11 @@
 .categories__card{
     border: 2px solid #1A1A1A;
     border-radius: 5px;
+    transition: transform 0.3s ease-in-out;
+
+}
+.categories__card:hover {
+    transform: scale(1.05);
 }
 .categories__details {
     padding: 15px 20px;

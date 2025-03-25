@@ -1,0 +1,114 @@
+#top {
+    align-items: center;
+    background-color: bisque;
+    width: 100%;
+    padding: 10px 0;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    margin-left: -7px;
+    margin-right: -10px;
+}
+
+.top-class {
+    display: inline-block;
+    text-align: center;
+}
+
+.Web-Cont-1 {
+    display: flex;
+    justify-content: center;
+}
+
+.short-pic,
+.hoodie2-pic,
+.hoodie3-pic,
+.hoodie4-pic {
+    width: 280px;
+    height: 350px;
+    margin: 0px;
+    object-fit: cover;
+    border-radius: 12px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+.container-1,
+.container-3,
+.container-4,
+.container-2 {
+    position: relative;
+    width: 280px;
+    height: 450px;
+    margin: 10px;
+    border: 0.5px solid black;
+    border-radius: 12px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.price-txt,
+.price2-txt,
+.price3-txt,
+.price4-txt {
+    font-weight: bold;
+    width: 100px;
+    font-size: 16px;
+    margin: 30px;
+}
+
+.Info-1,
+.Info-2,
+.Info-3,
+.Info-4 {
+    margin: 0px;
+    width: 280px;
+    height: 36px;
+    text-align: center;
+}
+
+.Text-1,
+.Text-3,
+.Text-4,
+.Text-2 {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 15px;
+    width: 280px;
+    height: 100px;
+}
+
+.Info-1:hover,
+.Info-3:hover,
+.Info-4:hover,
+.Info-2:hover {
+    text-decoration: underline;
+}
+
+#header-txt {
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 40px;
+}
+
+.cart-btn1 {
+    position: relative;
+    left: 170px;
+    bottom: 50px;
+    padding: 8px;
+    background-color: orange;
+    border-radius: 12px;
+    border: 0.5px solid orange;
+}
+
+.container-1:hover,
+.container-2:hover,
+.container-3:hover,
+.container-4:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.cart-btn1:hover {
+    cursor: pointer;
+}
