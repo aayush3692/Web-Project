@@ -3,6 +3,7 @@ header {
 }
 
 .header__nav {
+    position: sticky;
     width: 100%;
     display: flex;
     align-items: center;
@@ -64,4 +65,3 @@ header {
     width: 24px;
     height: auto;
 }
-
