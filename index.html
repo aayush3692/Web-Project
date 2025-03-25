@@ -13,14 +13,16 @@
     <header>
         <nav class="header__nav">
             <div class="header__logo">
-                <img src="assets/logo.png" alt="logo">
+                <a href="index.html">
+                    <img src="assets/logo.png" alt="logo">
+                </a>
             </div>
 
             <div class="flex-center">
                 <ul class="header__menu">
                     <li><a href="jacket.html">News & featured</a></li>
                     <li><a href="shirts.html">Men</a></li>
-                    <li><a href="#women">Women</a></li>
+                    <li><a href="pants.html">Women</a></li>
                     <li><a href="#kids">Kids</a></li>
                     <li><a href="hoodies.html">Accessories</a></li>
                     <li><a href="#sales">Sales</a></li>
@@ -109,7 +111,8 @@
                 <div class="text-overlay">
                     <h3>Sheer Bomber Jacket</h3>
                     <p>Introducing our stylish and versatile sheer clergy caped bomber jacket.</p>
-                    <button class="jacket-btn">Shop Now &#8594;</button>
+                    <button onclick="window.location.href='hoodies.html';"  
+                    class="jacket-btn">Shop Now &#8594;</button>
                 </div>
             </article>
 
@@ -140,7 +143,8 @@
             onclick="window.location.href='shirts.html';" 
             class="categories__filter-btn active">Shirts</button>
 
-            <button class="categories__filter-btn">Shorts</button>
+            <button  onclick="window.location.href='pants.html';" 
+            class="categories__filter-btn">Pants</button>
 
             <button 
             onclick="window.location.href='jacket.html';" 

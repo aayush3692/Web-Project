@@ -1,0 +1,94 @@
+#top {
+    align-items: center;
+    background-color: bisque;
+    width: 100%;
+    padding: 10px 0;
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+
+.top-class {
+    display: inline-block;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* Main Container for All Rows */
+.Web-Cont-1 {
+    display: flex;
+    justify-content: space-between;
+    /* Equal spacing */
+    flex-wrap: wrap;
+    /* Ensures responsiveness */
+    gap: 15px;
+    /* Adds consistent spacing */
+    padding: 10px;
+    /* Adds some space around */
+}
+
+/* Container Styling */
+.container-1,
+.container-2,
+.container-3,
+.container-4 {
+    position: relative;
+    width: 300px;
+    /* Ensure all containers have the same width */
+    height: 400px;
+    /* Ensure all containers have the same height */
+    margin: 0 auto;
+    /* Centers items */
+}
+
+/* Image Styling */
+.short-pic,
+.hoodie2-pic,
+.hoodie3-pic,
+.hoodie4-pic {
+    width: 280px;
+    /* Ensure all images have the same width */
+    height: 350px;
+    /* Ensure all images have the same height */
+    object-fit: contain;
+}
+
+/* Text Styling */
+.Text-1,
+.Text-2,
+.Text-3,
+.Text-4 {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 15px;
+    width: 280px;
+    text-align: center;
+    margin: 5px auto;
+}
+
+/* Price Styling */
+.price-txt,
+.price2-txt,
+.price3-txt,
+.price4-txt {
+    font-weight: bold;
+    width: 280px;
+    text-align: center;
+}
+
+/* Info Box Styling */
+.Info-1,
+.Info-2,
+.Info-3,
+.Info-4 {
+    width: 280px;
+    height: 60px;
+    text-align: center;
+    margin: 5px auto;
+}
+
+.Info-1:hover,
+.Info-2:hover,
+.Info-3:hover,
+.Info-4:hover {
+    text-decoration: underline;
+}

@@ -1,0 +1,130 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+}
+
+#top {
+    background-color: #333;
+    padding: 20px;
+    text-align: center;
+}
+
+.top-class {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.web-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+.product {
+    background-color: white;
+    width: 250px;
+    margin: 15px;
+    padding: 15px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.product-img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.product-info {
+    margin-top: 10px;
+}
+
+.product-name {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+}
+
+.product-price {
+    font-size: 18px;
+    color: #d32f2f;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+/* Shop Now Button Styling */
+.shop-now {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: -10px;
+    background-color: #ff6600;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+}
+
+.shop-now:hover {
+    background-color: #cc5200;
+}
+
+/* Shop Now Button Styling */
+.shop-now {
+    display: inline-block; /* Prevent full width */
+    width: 80%; /* Reduce width */
+    padding: 8px 15px; /* Adjust padding */
+    font-size: 14px; /* Reduce font size */
+    border-radius: 4px; /* Slightly smaller corners */
+}
+
+/* Discount Text Styling */
+.discount-txt {
+    font-size: 14px; /* Slightly smaller font size */
+    color: red; /* Red color to grab attention */
+    font-weight: bold;
+    margin-top:  -45px; /* Space above the discount */
+}
+
+
+.container-1 .price-txt,
+.container-2 .price2-txt,
+.container-3 .price3-txt,
+.container-4 .price4-txt {
+    text-decoration: line-through;
+    color: #888; /* Gray color for the original price */
+    font-size: 16px;
+
+}
+
+/* CSS for displaying the discounted price */
+.container-1 .discounted-price,
+.container-2 .discounted-price,
+.container-3 .discounted-price,
+.container-4 .discounted-price {
+    color: #ff0000; /* Red color for the discounted price */
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* CSS for discount text */
+.container-1 .discount-txt,
+.container-2 .discount-txt,
+.container-3 .discount-txt,
+.container-4 .discount-txt {
+    font-size: 14px;
+    color: #ff0000; /* Green color for the discount text */
+}
+
+.original-price{
+    position: relative;
+    left: 70px;
+    bottom: 35px;
+}

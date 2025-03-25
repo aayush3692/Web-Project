@@ -1,0 +1,37 @@
+.Web-Cont-2 {
+    justify-content: center;
+    margin-top: 100px;
+    display: flex;
+}
+
+.hoodie5-pic, .hoodie6-pic, .hoodie7-pic, .hoodie8-pic {
+    width: 280px;
+    height: 350px;
+    margin: 0;
+    padding: 0;
+    object-fit: contain;
+}
+
+.Container-1-1, .Container-2-1, .Container-3-1, .Container-4-1 {
+    position: relative;
+    width: 300px; /* Added px */
+    height: 400px;
+    margin-left: 0;
+}
+
+.Text-5, .Text-6, .Text-7, .Text-8 {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 15px;
+}
+
+.price8-txt, .price7-txt, .price6-txt, .price5-txt {
+    font-weight: bold;
+    width: 350px;
+    margin: 30px;
+}
+
+.Info-5, .Info-6, .Info-7, .Info-8 {
+    margin: 0;
+    width: 280px;
+    text-align: center;
+}

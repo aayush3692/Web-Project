@@ -1,0 +1,37 @@
+.Web-Cont-3{
+    justify-content: center;
+    margin-top: 100px;
+    display: flex;
+}
+.hoodie-1-1,.hoodie-1-2,.hoodie-1-3,.hoodie-1-4{
+    width:280px;
+    padding:0px;
+    height: 350px;
+    margin:0px;
+    object-fit: contain;
+}
+.Container-2-2,.Container-3-3,.Container-4-4,.Container-5-5{
+    position:relative;
+    width:300px;
+    height: 400px;
+    margin-left:0px;
+}
+.Text-1-1,.Text-1-2,.Text-1-3,.Text-1-4
+{
+    font-family:'Orbitron', sans-serif;
+    font-size: 15px;
+    height:88px;
+}
+.price-1-1,.price-1-2,.price-1-3,.price-1-4
+{
+    font-weight: bold;
+    width:350px;
+    margin:30px;
+}
+.Info-1-1,.Info-1-2,.Info-1-3,.Info-1-4
+{
+    margin:0px;
+    width:280px;
+    text-align: center;
+    height:36px;
+}
