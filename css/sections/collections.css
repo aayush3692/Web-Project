@@ -18,6 +18,14 @@
     gap: 10px;
     max-width: 1200px;
     margin: 0 auto;
+
+    
+}
+.collections__grid article{
+    transition: transform 0.3s ease-in-out;
+}
+.collections__grid article:hover{
+    transform: scale(1.05);
 }
 
 .collections__grid article:nth-child(1) {
@@ -39,6 +47,7 @@
     grid-column: 2;
     grid-row: 2;
 }
+
 
 .collections__grid article {
     position: relative;
